@@ -1,0 +1,19 @@
+.bgCover-style{
+    height:420px;
+    width: 1400px;
+    background-image: url(../../img/bg.png);
+    background-color: transparent rgb(168, 158, 158);
+    background-position: 100%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+p{
+    color:red;
+   margin-bottom: 30px;
+}
+/* 
+ .text-style{
+
+    margin-top:30px;
+} */

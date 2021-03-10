@@ -1,0 +1,13 @@
+.team{
+   
+    display:grid;
+    text-align:center;
+   grid-template-columns: auto auto auto;
+    
+}
+
+ .style{
+    height: 150px;
+ }
+   
+    

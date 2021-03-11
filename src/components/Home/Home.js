@@ -15,19 +15,18 @@ const Home = () => {
     },[])
     return (
         <div>
-            <h1>Teams: {allTeams.length}</h1>
+            {/* <h1>Teams: {allTeams.length}</h1> */}
             {/* <h5>{allTeams.strTeamLogo}</h5> */}
             <div className="bgCover-style">
-                    <p classID="text-style"> Euro league selection</p>
+                    <h1 style={{textAlign:'center'}}> Euro Team selection</h1>
             </div>
 
              <div className="">
+
              <Row>
             {
                 allTeams.map(teams => <Leagues teams={teams}></Leagues>)
             }
-
-           
             </Row>
              </div>
 

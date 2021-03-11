@@ -9,7 +9,7 @@ import Female from '../../img/female.png';
 
 
 const LeagueDetails = () => {
-    const { idTeam, strGender, intFormedYear, strSport, strCountry, strDescriptionEN, strTeamBanner, strLeague4,strFacebook,strTwitter,strYoutube,strTeam} = useParams()
+    const {idTeam,strFacebook,strTwitter,strYoutube} = useParams()
 
     const [leagueDetails, setLeaguesDetails,] = useState({})
 

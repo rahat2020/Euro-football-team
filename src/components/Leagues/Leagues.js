@@ -8,10 +8,10 @@ const Leagues = (props) => {
     return (
       
             <Col>
-            <Card style={{ width: '18rem', margin: '30px'}}>
+            <Card  style={{ width: '18rem', margin: '30px'}}>
                 <Card.Img className="style" variant="top" src={strTeamBanner}/>
                 <Card.Body>
-                <div className="text-center">
+                <div className="text-center ">
                     <Card.Title>Card Title</Card.Title>
                     
                     <Card.Text>
@@ -26,12 +26,7 @@ const Leagues = (props) => {
 
                 </Card.Body>
             </Card>
-
-
-
-            </Col>
-
-        
+         </Col>  
     );
 };
 

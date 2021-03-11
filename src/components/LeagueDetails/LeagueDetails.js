@@ -51,10 +51,6 @@ const LeagueDetails = () => {
              <a href={strTwitter} target="_blank" className="socialIcon-t"><FontAwesomeIcon icon={faTwitter} /></a>
              <a href={strYoutube} target="_blank" className="socialIcon-y"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
-
-             {/* <FontAwesomeIcon icon={faTwitter} ></FontAwesomeIcon>
-             <FontAwesomeIcon icon={faYoutube} ></FontAwesomeIcon> */}
-
          </div>
     );
 };

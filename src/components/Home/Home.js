@@ -18,7 +18,7 @@ const Home = () => {
             {/* <h1>Teams: {allTeams.length}</h1> */}
             {/* <h5>{allTeams.strTeamLogo}</h5> */}
             <div className="bgCover-style">
-                    <h1 style={{textAlign:'center'}}> Euro Team selection</h1>
+                    <h1 style={{textAlign:'center'}}> Euro football Team</h1>
             </div>
 
              <div className="">

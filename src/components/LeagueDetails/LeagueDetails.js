@@ -47,9 +47,9 @@ const LeagueDetails = () => {
             </div>
 
             <div className="icon-style">
-            <a href={strFacebook} target="_blank" className="socialIcon-f"><FontAwesomeIcon icon={faFacebookF} /></a>
-             <a href={strTwitter} target="_blank" className="socialIcon-t"><FontAwesomeIcon icon={faTwitter} /></a>
-             <a href={strYoutube} target="_blank" className="socialIcon-y"><FontAwesomeIcon icon={faYoutube} /></a>
+            <a href={strFacebook} target="#" className="socialIcon-f"><FontAwesomeIcon icon={faFacebookF} /></a>
+             <a href={strTwitter} target="#" className="socialIcon-t"><FontAwesomeIcon icon={faTwitter} /></a>
+             <a href={strYoutube} target="#" className="socialIcon-y"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
          </div>
     );

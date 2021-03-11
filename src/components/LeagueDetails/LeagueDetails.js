@@ -39,7 +39,7 @@ const LeagueDetails = () => {
                     
                 </Col>
                 <Col className="col-md-6 ">
-                        <img style={{ width: '350px', height: '220px' }} src={leagueDetails.strGender=="Male"? Male: Female} alt=""></img>
+                        <img style={{ width: '350px', height: '220px' }} src={leagueDetails.strGender==="Male"? Male: Female} alt=""></img>
                 </Col>
            </Row>
             <div className="descriptions-style">
